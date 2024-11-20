@@ -1,6 +1,6 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
-const baseUrl = "http://localhost:9500"
+const baseUrl = "https://twitter-clone-wc4p.onrender.com"
 
 export const SuggestUsers = createAsyncThunk("suggestUser", async function (args, thunkAPI) {
     try {
